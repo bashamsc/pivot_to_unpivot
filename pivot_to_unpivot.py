@@ -5,6 +5,9 @@ from openpyxl.pivot.fields import Missing
 
 file_path = 'path/to/your/data.xlsx'
 
+#Reference Code taken from
+#https://stackoverflow.com/questions/59330853/how-to-extract-excel-pivotcache-into-pandas-data-frame/73187540#73187540
+
 workbook = load_workbook(file_path)
 worksheet = workbook['Sheet_Name']
 
